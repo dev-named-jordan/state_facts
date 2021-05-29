@@ -14,6 +14,8 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'jquery-rails', '~> 4.4'
 gem 'leaflet-rails', '~> 1.7'
 gem 'terser', '~> 1.1', '>= 1.1.3'
+gem 'hirb', '~> 0.7.3'
+gem 'figaro'
 
 
 group :development, :test do
@@ -24,6 +26,11 @@ group :development, :test do
   gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 4.0.1'
   gem 'shoulda-matchers', '~> 4.2'
+  gem 'orderly'
+  gem 'simplecov'
+  gem 'launchy'
+  gem 'pry'
+  gem 'capybara'
 end
 
 group :development do
