@@ -1,18 +1,19 @@
-  <p><% @states.each do |state| %>
-    <section id="state-name">
-      <%= state.name %>
-    </section>
-    <section id="state-description">
-      <%= state.description %>
-    </section>
-    <section id="state-flag_image">
-      <%= state.flag_image %>
-    </section>
-    <section id="state-captitol_name">
-      <%= state.captitol_name %>
-    </section>
-    <section id="state-population">
-      <%= state.population %>
-    </section>
-     <% end %>
+  <p>
+    <% @states.each do |state| %>
+      <section id="state-name">
+        <%= state.name %>
+      </section>
+      <section id="state-description">
+        <%= state.description %>
+      </section >
+      <section id="state-flag_image">
+        <%= image_tag "#{state.flag_image}" %>
+      </section>
+      <section id="state-captitol_name">
+        <%= state.captitol_name %>
+      </section>
+      <section id="state-population">
+        <%= state.population %>
+      </section>
+    <% end %>
   </p>
