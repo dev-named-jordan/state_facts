@@ -28,7 +28,7 @@ describe 'State page' do
       })
 
     visit root_path
-    save_and_open_page
+    # save_and_open_page
 
     within('#state-name') do
       expect(page).to have_content('Colorado')
