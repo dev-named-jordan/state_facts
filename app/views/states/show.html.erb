@@ -1,0 +1,21 @@
+<p>
+  <%= require "pry"; binding.pry %>
+  <section id="state-name">
+    <%= @state_final.first.name %>
+  </section>
+  <section id="state-description">
+    <%= @state_final.first.description %>
+  </section >
+  <section id="state-flag_image">
+    <%= image_tag "#{@state_final.first.flag_image}" %>
+  </section>
+  <section id="state-capitol_name">
+    <%= @state_final.first.capitol_name %>
+  </section>
+  <section id="state-population">
+    <%= @state_final.first.population %>
+  </section>
+  <section id="state-facts">
+    <%= @state_final.last %>
+  </section>
+</p>

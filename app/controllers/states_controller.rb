@@ -13,7 +13,7 @@ class StatesController < ApplicationController
     fact = Fact.where(state_id: state.id)
     state_facts = fact.map(&:title)
     @state_final = [state, state_facts]
-    render json: @state_final
+    # render json: @state_final
   end
 
   # private
