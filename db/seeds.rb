@@ -14,12 +14,12 @@
   population: 5773714
   })
 
-# @california = State.create({
-#   name: 'California',
-#   description: '',
-#   flag_image: asset_path(''),
-#   captitol_name: '',
-#   population: ''} })
+@california = State.create({
+  name: 'California',
+  description: 'California is a state in the Western United States. It is bordered by Nevada to the east, Arizona to the southeast, the Pacific Ocean to the west, Oregon to the north, and the Mexican state of Baja California to the south.',
+  flag_image: asset_path(''),
+  capitol_name: 'Sacramento',
+  population: 40000000 })
 
 colorado_fact_1 = Fact.create({
   title: 'Colorado is home to the world’s largest natural hot springs swimming pool.',
@@ -36,3 +36,19 @@ colorado_fact_2 = Fact.create({
   lng: -104.713220,
   state_id: @colorado.id
   })
+
+  california_fact_1 = Fact.create({
+    title: 'California is home to the original Disneyland',
+    details: 'Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built to completion under the direct supervision of Walt Disney. It was originally the only attraction on the property; its official name was changed to Disneyland Park to distinguish it from the expanding complex in the 1990s. It was the first Disney theme park.',
+    lat: 33.812092,
+    lng: -117.918976,
+    state_id: @california.id
+    })
+
+  california_fact_2 = Fact.create({
+    title: 'Calaveras Big Trees State Park is a state park of California, United States, preserving two groves of giant sequoia trees.',
+    details: 'Calaveras became a State Park in 1931 to preserve the North Grove of giant sequoias. This grove includes the “Discovery Tree”, also known as the “Big Stump”, the first Sierra redwood noted by Augustus T. Dowd in 1852. This area has been a major tourist attraction ever since, and is considered the longest continuously operated tourist facility in California.',
+    lat: 38.277300,
+    lng: -120.309960,
+    state_id: @california.id
+    })
