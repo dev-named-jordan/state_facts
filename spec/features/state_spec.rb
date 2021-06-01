@@ -51,31 +51,50 @@ RSpec.describe 'State index page' do
         state_id: @california.id
         })
   end
-  # it 'Can load state index' do
+  # it 'Can load state index page' do
   #   visit root_path
-    # save_and_open_page
-    # within('#state-name') do
+  #
+  #   within('#state-name') do
+  #     expect(page).to have_content('Colorado')
+  #   end
+  #
+  #   within('#state-description') do
+  #     expect(page).to have_content('Colorado, a western U.S. state, has a diverse landscape of arid desert, river canyons and snow-covered Rocky Mountains, which are partly protected by Rocky Mountain National Park. Elsewhere, Mesa Verde National Park features Ancestral Puebloan cliff dwellings. Perched a mile above sea level, Denver, Colorado’s capital and largest city, features a vibrant downtown area. - Google')
+  #   end
+  #
+  #   # within('#state-flag_image') do
+  #   #   expect(page).to have_content('/assets/images/colorado_map.png')
+  #   # end
+  #
+  #   within('#state-capitol_name') do
+  #     expect(page).to have_content('Denver')
+  #   end
+  #
+  #   within('#state-population') do
+  #     expect(page).to have_content(5773714)
+  #   end
+  # end
+  it 'Can load state show page' do
+    visit state_path(@colorado.id)
+
+    # within('#specific-state-name') do
     #   expect(page).to have_content('Colorado')
     # end
-    #
-    # within('#state-description') do
+
+    # within('#specific-state-description') do
     #   expect(page).to have_content('Colorado, a western U.S. state, has a diverse landscape of arid desert, river canyons and snow-covered Rocky Mountains, which are partly protected by Rocky Mountain National Park. Elsewhere, Mesa Verde National Park features Ancestral Puebloan cliff dwellings. Perched a mile above sea level, Denver, Colorado’s capital and largest city, features a vibrant downtown area. - Google')
     # end
-    #
-    # # within('#state-flag_image') do
-    # #   expect(page).to have_content('/assets/images/colorado_map.png')
-    # # end
-    #
-    # within('#state-capitol_name') do
+
+    # within('#specific-state-flag_image') do
+    #   expect(page).to have_content('/assets/images/colorado_map.png')
+    # end
+
+    # within('#specific-state-capitol_name') do
     #   expect(page).to have_content('Denver')
     # end
     #
-    # within('#state-population') do
+    # within('#specific-state-population') do
     #   expect(page).to have_content(5773714)
     # end
-  # end
-  it 'State Show Page' do
-    visit state_path(@colorado.id)
-    # save_and_open_page
   end
 end

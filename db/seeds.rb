@@ -17,7 +17,7 @@
 @california = State.create({
   name: 'California',
   description: 'California is a state in the Western United States. It is bordered by Nevada to the east, Arizona to the southeast, the Pacific Ocean to the west, Oregon to the north, and the Mexican state of Baja California to the south.',
-  flag_image: asset_path(''),
+  flag_image: ('/assets/images/colorado_map.png'),
   capitol_name: 'Sacramento',
   population: 40000000 })
 

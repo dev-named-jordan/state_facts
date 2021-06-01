@@ -1,6 +1,5 @@
   <p>
     <% @states.each do |state| %>
-    <%= require "pry"; binding.pry %>
       <section id="state-name">
         <%= state.name %>
       </section>
@@ -18,6 +17,9 @@
       </section>
       <section id="state-facts">
         <%= state %>
+      </section>
+      <section id="state-facts">
+        <%= @state_final.last %>
       </section>
     <% end %>
   </p>

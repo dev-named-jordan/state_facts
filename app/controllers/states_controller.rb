@@ -3,7 +3,6 @@ class StatesController < ApplicationController
   # before_action :find_state_fact_title, only: [:show]
 
   def index
-    # require "pry"; binding.pry
     @states = State.all
     render json: @states
   end
@@ -13,9 +12,10 @@ class StatesController < ApplicationController
     fact = Fact.where(state_id: state.id)
     state_facts = fact.map(&:title)
     @state_final = [state, state_facts]
-    # render json: @state_final
+    # require "pry"; binding.pry
+    render json: @state_final
   end
-
+#not sure if strong params should be used here
   # private
   # def find_state
   #   @state = State.find(params[:id])
