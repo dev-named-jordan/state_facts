@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2021_05_29_220619) do
     t.string "name"
     t.text "description"
     t.string "flag_image"
-    t.string "captitol_name"
+    t.string "capitol_name"
     t.integer "population"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

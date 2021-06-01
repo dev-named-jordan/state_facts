@@ -10,7 +10,7 @@
   name: 'Colorado',
   description: 'Colorado, a western U.S. state, has a diverse landscape of arid desert, river canyons and snow-covered Rocky Mountains, which are partly protected by Rocky Mountain National Park. Elsewhere, Mesa Verde National Park features Ancestral Puebloan cliff dwellings. Perched a mile above sea level, Denver, Colorado’s capital and largest city, features a vibrant downtown area. - Google',
   flag_image: ('/assets/images/colorado_map.png'),
-  captitol_name: 'Denver',
+  capitol_name: 'Denver',
   population: 5773714
   })
 

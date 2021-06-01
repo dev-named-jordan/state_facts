@@ -1,5 +1,6 @@
   <p>
     <% @states.each do |state| %>
+    <%= require "pry"; binding.pry %>
       <section id="state-name">
         <%= state.name %>
       </section>
@@ -9,11 +10,14 @@
       <section id="state-flag_image">
         <%= image_tag "#{state.flag_image}" %>
       </section>
-      <section id="state-captitol_name">
-        <%= state.captitol_name %>
+      <section id="state-capitol_name">
+        <%= state.capitol_name %>
       </section>
       <section id="state-population">
         <%= state.population %>
+      </section>
+      <section id="state-facts">
+        <%= state %>
       </section>
     <% end %>
   </p>

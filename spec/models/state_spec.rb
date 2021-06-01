@@ -5,7 +5,7 @@ RSpec.describe State, type: :model do
     it { should validate_presence_of :name }
     it { should validate_presence_of :description }
     it { should validate_presence_of :flag_image }
-    it { should validate_presence_of :captitol_name }
+    it { should validate_presence_of :capitol_name }
     it { should validate_presence_of :population }
   end
   describe "relationships" do

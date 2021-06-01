@@ -4,7 +4,7 @@ class CreateStates < ActiveRecord::Migration[6.1]
       t.string :name
       t.text :description
       t.string :flag_image
-      t.string :captitol_name
+      t.string :capitol_name
       t.integer :population
 
       t.timestamps
