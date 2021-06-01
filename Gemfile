@@ -16,6 +16,7 @@ gem 'leaflet-rails', '~> 1.7'
 gem 'terser', '~> 1.1', '>= 1.1.3'
 gem 'hirb', '~> 0.7.3'
 gem 'figaro'
+gem 'uglifier', '~>2.7'
 
 
 group :development, :test do
