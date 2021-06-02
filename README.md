@@ -21,3 +21,8 @@
 - https://beck-state-facts.herokuapp.com/
 - https://beck-state-facts.herokuapp.com/states/1
 - https://beck-state-facts.herokuapp.com/states/2
+
+
+- https://github.com/jordanfbeck0528/state_facts
+- https://github.com/jordanfbeck0528/state_facts#readme
+- https://gist.github.com/jordanfbeck0528/3563d884bc46b0b3fc9e0a5737e40fb2#file-beck_state_facts_report-md
