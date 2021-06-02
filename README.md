@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Post Challenge Report - https://gist.github.com/jordanfbeck0528/3563d884bc46b0b3fc9e0a5737e40fb2
 
-Things you may want to cover:
+* Ruby 2.6.6, and Rails 6.1.3.2
 
-* Ruby version
+* Tested with RSpec 4.0.1, Postman, Pry, Capybara, SimpleCov, launchy, and shoulda-matchers
 
-* System dependencies
+* Setup to use locally
 
-* Configuration
+- git clone repository into your local
+- rails db:create, rails db:migrate, rails db:seed
+- rails s, then navigate to any of these endpoints below. 
 
-* Database creation
+- http://localhost:3000/
+- http://localhost:3000/states/1
+- http://localhost:3000/states/2
 
-* Database initialization
+* Heroku Depoyment
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- https://beck-state-facts.herokuapp.com/
+- https://beck-state-facts.herokuapp.com/states/1
+- https://beck-state-facts.herokuapp.com/states/2
