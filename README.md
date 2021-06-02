@@ -1,6 +1,6 @@
 # README
 
-## Post Challenge Report - https://gist.github.com/jordanfbeck0528/3563d884bc46b0b3fc9e0a5737e40fb2
+## Post Challenge Report - https://gist.github.com/jordanfbeck0528/3563d884bc46b0b3fc9e0a5737e40fb2#file-beck_state_facts_report-md
 
 * Ruby 2.6.6, and Rails 6.1.3.2
 
